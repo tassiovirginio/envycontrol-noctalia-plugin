@@ -61,8 +61,8 @@ Item {
 
         args.push("--verbose")
 
-        var cmd = "yes | envycontrol " + args.join(" ")
-        switchProcess.command = ["pkexec", "sh", "-c", cmd]
+        var cmd = "yes | sudo envycontrol " + args.join(" ")
+        switchProcess.command = ["sh", "-c", cmd]
         switchProcess.running = true
     }
 
@@ -70,8 +70,8 @@ Item {
         if (!root.envycontrolInstalled || root.switching) return
 
         root.switching = true
-        var cmd = "yes | envycontrol --reset --verbose"
-        resetProcess.command = ["pkexec", "sh", "-c", cmd]
+        var cmd = "yes | sudo envycontrol --reset --verbose"
+        resetProcess.command = ["sh", "-c", cmd]
         resetProcess.running = true
     }
 
