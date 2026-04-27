@@ -1,0 +1,29 @@
+{
+  "id": "envy-control",
+  "name": "EnvyControl",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "Tassio",
+  "license": "MIT",
+  "repository": "https://github.com/noctalia-dev/noctalia-plugins",
+  "description": "GPU mode switcher using EnvyControl (Intel/NVIDIA/Hybrid)",
+  "tags": ["Bar", "Panel", "System", "GPU", "NVIDIA"],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "showLabel": true,
+      "toast": true,
+      "confirmReboot": true,
+      "showGpuInfo": false,
+      "boldText": true
+    }
+  }
+}

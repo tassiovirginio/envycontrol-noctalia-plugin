@@ -1,0 +1,72 @@
+{
+    "mode": {
+        "integrated": "Integrada",
+        "hybrid": "Hibrido",
+        "nvidia": "NVIDIA",
+        "unknown": "Desconhecido",
+        "notInstalled": "Nao Instalado"
+    },
+    "tooltip": {
+        "currentMode": "Modo GPU Atual"
+    },
+    "context": {
+        "refresh": "Atualizar",
+        "integrated": "Mudar para Integrada",
+        "hybrid": "Mudar para Hibrido",
+        "nvidia": "Mudar para NVIDIA",
+        "reset": "Redefinir EnvyControl",
+        "settings": "Configuracoes"
+    },
+    "panel": {
+        "title": "Modo GPU",
+        "currentMode": "Modo Atual",
+        "integrated": "Integrada",
+        "integratedDesc": "Somente Intel/AMD, melhor autonomia",
+        "hybrid": "Hibrido",
+        "hybridDesc": "GPU sob demanda, equilibrado",
+        "nvidia": "NVIDIA",
+        "nvidiaDesc": "Somente NVIDIA, maximo desempenho",
+        "switching": "Alternando modo...",
+        "reset": "Redefinir EnvyControl"
+    },
+    "dialog": {
+        "rebootTitle": "Reinicializacao Necessaria",
+        "rebootMessage": "Mudar para o modo {mode} requer reinicializacao para ter efeito. Como deseja prosseguir?",
+        "cancel": "Cancelar",
+        "switchAndReboot": "Alternar e Reiniciar",
+        "switchOnly": "Somente Alternar"
+    },
+    "toast": {
+        "switched": "Modo GPU alterado com sucesso. Reinicializacao necessaria.",
+        "switchFailed": "Falha ao alterar modo GPU",
+        "reset": "EnvyControl redefinido com sucesso. Reinicializacao necessaria.",
+        "resetFailed": "Falha ao redefinir EnvyControl"
+    },
+    "settings": {
+        "title": "Configuracoes EnvyControl",
+        "desc": "Configurar o plugin de alternancia de modo GPU",
+        "showLabel": {
+            "text": "Mostrar Rotulo do Modo",
+            "desc": "Exibir o nome do modo atual ao lado do icone"
+        },
+        "boldText": {
+            "text": "Texto em Negrito",
+            "desc": "Exibir o rotulo do modo em negrito"
+        },
+        "toast": {
+            "text": "Notificacoes Toast",
+            "desc": "Mostrar notificacoes toast ao alternar modos"
+        },
+        "confirmReboot": {
+            "text": "Confirmar Reinicializacao",
+            "desc": "Mostrar dialogo de confirmacao ao alternar modos"
+        },
+        "showGpuInfo": {
+            "text": "Mostrar Info GPU",
+            "desc": "Exibir temperatura e memoria da GPU no tooltip"
+        },
+        "status": {
+            "currentMode": "Modo GPU Atual"
+        }
+    }
+}

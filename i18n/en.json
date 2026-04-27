@@ -1,0 +1,72 @@
+{
+    "mode": {
+        "integrated": "Integrated",
+        "hybrid": "Hybrid",
+        "nvidia": "NVIDIA",
+        "unknown": "Unknown",
+        "notInstalled": "Not Installed"
+    },
+    "tooltip": {
+        "currentMode": "Current GPU Mode"
+    },
+    "context": {
+        "refresh": "Refresh",
+        "integrated": "Switch to Integrated",
+        "hybrid": "Switch to Hybrid",
+        "nvidia": "Switch to NVIDIA",
+        "reset": "Reset EnvyControl",
+        "settings": "Settings"
+    },
+    "panel": {
+        "title": "GPU Mode",
+        "currentMode": "Current Mode",
+        "integrated": "Integrated",
+        "integratedDesc": "Intel/AMD only, best battery life",
+        "hybrid": "Hybrid",
+        "hybridDesc": "On-demand GPU, balanced power",
+        "nvidia": "NVIDIA",
+        "nvidiaDesc": "NVIDIA only, maximum performance",
+        "switching": "Switching mode...",
+        "reset": "Reset EnvyControl"
+    },
+    "dialog": {
+        "rebootTitle": "Reboot Required",
+        "rebootMessage": "Switch to {mode} mode requires a reboot to take effect. How would you like to proceed?",
+        "cancel": "Cancel",
+        "switchAndReboot": "Switch & Reboot",
+        "switchOnly": "Switch Only"
+    },
+    "toast": {
+        "switched": "GPU mode switched successfully. Reboot required.",
+        "switchFailed": "Failed to switch GPU mode",
+        "reset": "EnvyControl reset successfully. Reboot required.",
+        "resetFailed": "Failed to reset EnvyControl"
+    },
+    "settings": {
+        "title": "EnvyControl Settings",
+        "desc": "Configure the GPU mode switcher plugin",
+        "showLabel": {
+            "text": "Show Mode Label",
+            "desc": "Display the current mode name next to the icon"
+        },
+        "boldText": {
+            "text": "Bold Text",
+            "desc": "Display the mode label in bold"
+        },
+        "toast": {
+            "text": "Toast Notifications",
+            "desc": "Show toast notifications when switching modes"
+        },
+        "confirmReboot": {
+            "text": "Confirm Reboot",
+            "desc": "Show reboot confirmation dialog when switching modes"
+        },
+        "showGpuInfo": {
+            "text": "Show GPU Info",
+            "desc": "Display GPU temperature and memory in the tooltip"
+        },
+        "status": {
+            "currentMode": "Current GPU Mode"
+        }
+    }
+}
